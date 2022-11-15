@@ -168,6 +168,7 @@ header .logo img{
 .overlay video{
     max-width: 900px;
     outline: none;
+    max-height: 400px;
 }
 .close{
     position: absolute;
