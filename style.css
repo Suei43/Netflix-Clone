@@ -17,7 +17,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
-    z-index: 101;
+    z-index: 100;
 }
 header .logo img{
     max-width: 150px;
