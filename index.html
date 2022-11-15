@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Landing Page UI Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body class="body">
+    <header>
+        <a href="" class="logo"><img src="logo.png" alt="Netflix Logo"/></a>
+        <ul class="navigation">
+            <li><a href="">Home</a></li>
+            <li><a href="">TV Shows</a></li>
+            <li><a href="">Movies</a></li>
+            <li><a href="">Latest</a></li>
+            <li><a href="">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="bg.jpg" class="bg">
+        <div class="content">
+            <img src="name.png" class="movietitle">
+            <h4>
+                <span>2020</span><span><i>PG-13</i></span><span>1hr 56min</span><span>Action</span>
+            </h4>
+            <p>To save her ailing father from serving in the Imperial Army, a fearless young woman disguises herself as a man to battle northern invaders in China.</p>
+            <div class="buttons">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+            </div>
+        </div>
+        <div class="play"><img src="play.png" >Watch Trailer</div>
+    </div>
+    <!-- <div id="trailer">
+        <video src="mainvid.mp4" controls="true" autoplay="true"></video>
+        <img src="close.png" class="close">
+    </div> -->
+    <div class="overlay">
+        <video src="mainvid.mp4" controls="true" autoplay="true"></video>
+        <img src="close.png" class="close">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
