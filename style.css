@@ -145,6 +145,7 @@ header .logo img{
 }
 .banner .content .buttons a:hover:nth-child(2){
     background-color: #de0611;
+    border: 0.5px solid #de0611;
 }
 .play{
     position: absolute;
@@ -195,6 +196,9 @@ header .logo img{
     z-index: 1000;
     visibility: hidden;
 }
+.play:hover{
+    transform: scale(1.02);
+}
 .nowoverlay{
     visibility: visible;
 }
@@ -243,4 +247,9 @@ header .logo img{
         bottom: 30px;
         font-size: 1em;
     }
+}
+.banner .content .buttons a:hover:first-child{
+    background-color: transparent;
+    /* border: 1px solid rgba(255, 255, 255, 0.5); */
+    box-sizing: border-box;
 }
